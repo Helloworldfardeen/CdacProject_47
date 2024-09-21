@@ -30,8 +30,11 @@ This project is a full-stack application for visualizing log data. The frontend 
 - **Node.js:** Ensure that you have Node.js installed for running the frontend.
 - **Java:** Required for running the backend (Spring Boot).
 - **Maven/Gradle:** For managing backend dependencies.
-###Screenshot
-![Screenshot of the Dashboard](screenshot(1).png)
+
+## Screenshot
+
+### Dashboard View
+![Screenshot of the Dashboard](Screenshot%20(1).png)
 
 ### Steps
 
@@ -40,6 +43,3 @@ This project is a full-stack application for visualizing log data. The frontend 
    ```bash
    git clone https://github.com/your-repository/log-data-visualization.git
    cd log-data-visualization
-
-   ![Screenshot of the Dashboard](Screenshot%20(1).png)
-
