@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Log Data Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack application for visualizing log data. The frontend is built with React, and the backend is presumably built using a technology such as Spring Boot. The application allows users to upload and visualize log files, providing insights using charts and tables.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Log Data Visualization:** Upload log files to visualize data in a user-friendly format using charts (JFreeChart likely).
+- **User Authentication:** Secure user login and management system with encrypted (Base64 encoded) passwords.
+- **File Management:** Upload and manage log files easily.
+- **Error Handling:** Robust error handling ensures smooth user experience.
+- **Interactive Charts:** Real-time data display using various chart formats.
+- **Responsive Design:** The UI is optimized for both desktop and mobile devices.
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend (React):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **log-data-ui:** Contains the React app for the user interface.
+- **Assets:** Contains images, stylesheets, and static JavaScript files.
+- **Build:** Compiled version of the app ready for deployment.
 
-### `npm test`
+### Backend (Assumed to be Spring Boot)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Handles log data processing, file storage, and API services.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js:** Ensure that you have Node.js installed for running the frontend.
+- **Java:** Required for running the backend (Spring Boot).
+- **Maven/Gradle:** For managing backend dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Steps
 
-### `npm run eject`
+1. **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/your-repository/log-data-visualization.git
+   cd log-data-visualization
