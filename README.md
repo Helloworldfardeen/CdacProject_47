@@ -38,3 +38,6 @@ This project is a full-stack application for visualizing log data. The frontend 
    ```bash
    git clone https://github.com/your-repository/log-data-visualization.git
    cd log-data-visualization
+
+   ![Screenshot of the Dashboard](Screenshot%20(1).png)
+
