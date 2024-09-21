@@ -35,10 +35,10 @@ This project is a full-stack application for visualizing log data. The frontend 
 
 ### Dashboard View
 ![Screenshot of the Dashboard](screenshot/indexPage.png)
-![Screenshot of the Dashboard](screenshot/proojectUI1.png)
-![Screenshot of the Dashboard](screenshot/proojectUI2.png)
-![Screenshot of the Dashboard](screenshot/proojectUI3.png)
-![Screenshot of the Dashboard](screenshot/proojectUI4.png)
+![Screenshot of the Dashboard](screenshot/projectUI1.png)
+![Screenshot of the Dashboard](screenshot/projectUI2.png)
+![Screenshot of the Dashboard](screenshot/projectUI3.png)
+![Screenshot of the Dashboard](screenshot/projectUI4.png)
 
 ### Steps
 
